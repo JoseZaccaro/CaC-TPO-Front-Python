@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body*/
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f3;
+}
+
+.logo img {
+    width: 140px;
+    margin: 5px;
+}
+
+.min-h-screen {
+    min-height: 100dvh;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    100% {
+        transform: translate(0, 5px);
+
+    }
+}
+
+/*Menu responsivo*/
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    padding-right: 0px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+}
+
+.logo {
+    grid-column: span 1;
+}
+
+nav {
+    overflow: hidden;
+    grid-column: 3/4;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 22px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: 10px;
+}
+
+nav a.active {
+    background-color: #b99470;
+    color: white;
+    border-radius: 10px;
+}
+
+nav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+    nav li:not(:first-child) {
+        display: none;
+    }
+
+    nav ul .icon {
+        float: right;
+        display: block;
+    }
+
+    nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        grid-column: span 1;
+        margin: 0;
+        padding: 14px 16px 16px 14px;
+        border: 0;
+    }
+
+    nav.responsive li {
+        float: none;
+        display: grid;
+        text-align: left;
+        grid-column: 3/4;
+        border: 1px solid rgba(185, 148, 112, 0.4);
+        border-radius: 10px;
+        margin: 5px 15% 5px 15%;
+        padding: 0;
+    }
+
+    .topnav {
+        grid-column: span 1;
+    }
+
+    nav.responsive {
+        grid-column: span 2;
+        background-color: rgba(49, 49, 49, 0.9);
+    }
+
+    header {
+        background-color: rgba(49, 49, 49, 0.8);
+    }
+}
+
+/*Fin MENU RESPONSIVE*/
+
+/*Footer*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+footer .content .img {
+    grid-column: 2/3;
+}
+
+footer .content .img img {
+    width: 200px;
+    height: 200px;
+}
+
+footer .content .text {
+    display: grid;
+    align-items: center;
+}
+
+.text p {
+    display: grid;
+    grid-template-columns: 27px 1fr;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6px;
+    margin: 0;
+}
+
+
+.footer-container-menu {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-title-menu {
+    grid-column: span 1;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footer-link-menu {
+    color: white;
+    text-decoration: none;
+    text-decoration: underline white;
+}
+
+.footer-link-menu:hover {
+    text-decoration: underline double #b99470;
+}
+
+.copyright {
+    background-color: #C2A476;
+    padding: 3px;
+}
+
+@media screen and (max-width: 1080px) {
+    footer .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-container-menu {
+        text-align: center;
+    }
+
+    .footer-title-menu {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    footer .content .img {
+        grid-column: 1/2;
+    }
+
+    footer .content .text {
+        align-items: center;
+    }
+
+    .text p {
+        grid-template-columns: auto auto;
+    }
+}
+
+/*FIN FOOTER*/

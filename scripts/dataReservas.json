@@ -1,0 +1,179 @@
+{
+  "cities": [
+    {
+      "cityName": "Provincia de Buenos Aires",
+      "places": [
+        {
+          "placeName": "La Plata Residence",
+          "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Residencia_del_Gobernador_de_la_provincia_de_Buenos_Aires_%28La_Plata%29.jpg/1024px-Residencia_del_Gobernador_de_la_provincia_de_Buenos_Aires_%28La_Plata%29.jpg",
+          "imageAlt": "buenos aires",
+          "description": "1 cama doble, 1 cama individual, 1 baño",
+          "price": 100,
+          "placeId": 1,
+          "guests": 3,
+          "location": "La Plata, Buenos Aires"
+        },
+        {
+          "placeName": "Mar del Plata Retreat",
+          "imageSrc": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0c/ca/6f/exterior.jpg?w=1200&h=-1&s=1",
+          "imageAlt": "mar del plata",
+          "description": "2 camas dobles, 1 baño",
+          "price": 120,
+          "placeId": 2,
+          "guests": 2,
+          "location": "Mar del Plata, Buenos Aires"
+        },
+        {
+          "placeName": "Tigre Getaway",
+          "imageSrc": "https://www.bwd-vacations.com/wp-content/uploads/tigre_005.jpg",
+          "imageAlt": "CABA Campanario",
+          "description": "1 cama doble, 2 camas individuales, 1 baño",
+          "price": 150,
+          "placeId": 3,
+          "guests": 4,
+          "location": "Tigre, Buenos Aires"
+        }
+      ]
+    },
+    {
+      "cityName": "Ciudad Autónoma de Buenos Aires",
+      "places": [
+        {
+          "placeName": "Palermo Studio",
+          "imageSrc": "https://studio-fr-palermo-hollywood-buenos-aires.hotelmix.es/data/Photos/OriginalPhoto/15485/1548593/1548593188/Studio-Fr-Palermo-Hollywood-Apartment-Buenos-Aires-Exterior.JPEG",
+          "imageAlt": "caba 1",
+          "description": "1 cama doble, 1 baño",
+          "price": 100,
+          "placeId": 4,
+          "guests": 2,
+          "location": "Palermo, Buenos Aires"
+        },
+        {
+          "placeName": "Recoleta Comfort",
+          "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/523131064.jpg?k=28eecfd6a34128384431a5ddb8bc3a6d6325d9782aced3101d6e8340609a73ab&o=&hp=1",
+          "imageAlt": "caba 2",
+          "description": "2 camas dobles, 1 baño",
+          "price": 120,
+          "placeId": 5,
+          "guests": 3,
+          "location": "Recoleta, Buenos Aires"
+        },
+        {
+          "placeName": "Belgrano Suites",
+          "imageSrc": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e2/e7/17/bahia-belgrano-suites.jpg?w=700&h=-1&s=1",
+          "imageAlt": "caba 3",
+          "description": "1 cama doble, 2 camas individuales, 1 baño",
+          "price": 150,
+          "placeId": 6,
+          "guests": 4,
+          "location": "Belgrano, Buenos Aires"
+        }
+      ]
+    },
+    {
+      "cityName": "Córdoba",
+      "places": [
+        {
+          "placeName": "Capilla del Monte Hideout",
+          "imageSrc": "https://www.alooja.com.ar/php/generarImagen.php?dinamico=1&t=3&q=../files/1/1/1/1116-3838.jpg&w=720&h=540&c=85",
+          "imageAlt": "cordoba 1",
+          "description": "1 cama doble, 1 baño",
+          "price": 100,
+          "placeId": 7,
+          "guests": 3,
+          "location": "Capilla del Monte, Córdoba"
+        },
+        {
+          "placeName": "Villa Carlos Paz Escape",
+          "imageSrc": "https://www.destinocordoba.com.ar/wp-content/uploads/2021/07/CARLOS-PAZ1.jpeg",
+          "imageAlt": "cordoba 2",
+          "description": "2 camas dobles, 1 baño",
+          "price": 120,
+          "placeId": 8,
+          "guests": 2,
+          "location": "Villa Carlos Paz, Córdoba"
+        },
+        {
+          "placeName": "Alta Gracia Getaway",
+          "imageSrc": "https://tripin.travel/wp-content/uploads/2016/07/Alta-Gracia-cordoba-turismo-gov.jpg",
+          "imageAlt": "cordoba 3",
+          "description": "1 cama doble, 2 camas individuales, 1 baño",
+          "price": 150,
+          "placeId": 9,
+          "guests": 4,
+          "location": "Alta Gracia, Córdoba"
+        }
+      ]
+    },
+    {
+      "cityName": "Mendoza",
+      "places": [
+        {
+          "placeName": "Chacras de Coria Charm",
+          "imageSrc": "https://images.pxsol.com/1093/P1958/photos/afb87452adb18b5187613721ac98d76e8b626f9b.jpg?auto=format&browser=Google%20Bot&ixlib=php-3.3.0&w=1200&s=b9ef17be030171d8e362dde36d2a502a",
+          "imageAlt": "mendoza 1",
+          "description": "1 cama doble, 1 baño",
+          "price": 100,
+          "placeId": 10,
+          "guests": 3,
+          "location": "Chacras de Coria, Mendoza"
+        },
+        {
+          "placeName": "Luján de Cuyo Loft",
+          "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/404633867.jpg?k=9bb2f9f57931631f0e622d863e29ce98b169c5842001ea6037acbd836c430a02&o=&hp=1",
+          "imageAlt": "mendoza 2",
+          "description": "2 camas dobles, 1 baño",
+          "price": 120,
+          "placeId": 11,
+          "guests": 2,
+          "location": "Luján de Cuyo, Mendoza"
+        },
+        {
+          "placeName": "Maipú Suite",
+          "imageSrc": "https://www.arenamaipu.com.ar/img/suite-suite.png",
+          "imageAlt": "mendoza 3",
+          "description": "1 cama doble, 2 camas individuales, 1 baño",
+          "price": 150,
+          "placeId": 12,
+          "guests": 4,
+          "location": "Maipú, Mendoza"
+        }
+      ]
+    },
+    {
+      "cityName": "Salta",
+      "places": [
+        {
+          "placeName": "Cafayate Wine Country Lodge",
+          "imageSrc": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/de/39/46/foto-de-drone-entorno.jpg?w=1200&h=-1&s=1",
+          "imageAlt": "salta 1",
+          "description": "1 cama doble, 1 baño",
+          "price": 100,
+          "placeId": 13,
+          "guests": 3,
+          "location": "Cafayate, Salta"
+        },
+        {
+          "placeName": "Cachi Colonial House",
+          "imageSrc": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/1b/3b/0d/el-molino-de-cachi.jpg?w=700&h=-1&s=1",
+          "imageAlt": "salta 2",
+          "description": "2 camas dobles, 1 baño",
+          "price": 120,
+          "placeId": 14,
+          "guests": 2,
+          "location": "Cachi, Salta"
+        },
+        {
+          "placeName": "San Lorenzo Retreat",
+          "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/427892695.jpg?k=c164b5cde7f00f65df770f428fee29c7397490e889c5522ddac20ebaab0a6a9d&o=&hp=1",
+          "imageAlt": "salta 3",
+          "description": "1 cama doble, 2 camas individuales, 1 baño",
+          "price": 150,
+          "placeId": 15,
+          "guests": 4,
+          "location": "San Lorenzo, Salta"
+        }
+      ]
+    }
+  ]
+}
