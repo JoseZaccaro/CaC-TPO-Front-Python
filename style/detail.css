@@ -1,0 +1,178 @@
+.developing {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chevron {
+    cursor: pointer;
+    filter: invert(1);
+    width: 50px;
+    height: 50px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Feather-arrows-chevron-down.svg/1024px-Feather-arrows-chevron-down.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    animation: bounce 700ms infinite alternate;
+}
+
+.chevron::after {
+    z-index: 10;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Feather-arrows-chevron-down.svg/1024px-Feather-arrows-chevron-down.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    animation: bounce 700ms infinite alternate;
+}
+
+.detail-container {
+    margin-top: -4.5%;
+    padding: 20px;
+}
+
+.details {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 20px; */
+    border: 1px solid #dddddd;
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.details .detail-section {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.details .detail-section:not(:first-child) {
+    border-left-width: 1px;
+}
+
+.details .detail-section:last-child:hover {
+    background-color: #ff952a;
+}
+
+.details .detail-section:last-child {
+    background-color: #ffcfa0;
+    cursor: pointer;
+}
+
+.details .detail-section>div {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.details .detail-section>div>strong {
+    font-size: 1.25rem;
+}
+
+@media screen and (min-width: 1800px) {
+    .detail-container {
+        margin-top: -3.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .detail-container {
+        margin-top: -12.5%;
+    }
+
+    .details {
+        height: 200px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .details .detail-section:nth-child(4) {
+        border-top: 1px solid #dddddd;
+    }
+
+    .details .detail-section:nth-child(5) {
+        border-top: 1px solid #dddddd;
+    }
+
+    .details .detail-section:last-child {
+        grid-column: span 2;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .detail-container {
+        margin-top: -23.5%;
+    }
+
+    .details {
+        height: 200px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        font-size: .75rem;
+    }
+
+    .details .detail-section:nth-child(3) {
+        border-top: 1px solid #dddddd;
+    }
+
+    .details .detail-section:nth-child(4) {
+        border-top: 1px solid #dddddd;
+    }
+
+    .details .detail-section:nth-child(5) {
+        border-top: 1px solid #dddddd;
+    }
+
+    .details .detail-section:last-child {
+        grid-column: span 2;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .details .detail-section>div>strong {
+        font-size: 1rem;
+    }
+}
