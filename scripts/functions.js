@@ -71,3 +71,40 @@ export function createDetail(place) {
 
     `
 }
+
+export function createRoom(place) {
+
+    return `
+        <div class="room">
+            <div class="room-image">
+                <img src="${place.foto}" alt="${place.imageAlt}" />
+            </div>
+            <div class="room-info">
+                <h3>${place.titulo}</h3>
+                <p>${place.info}</p>
+                <p>Precio: &dollar;${place.price} por noche</p>
+            </div>
+        </div>
+    `
+}
+
+
+
+  export function createRoomType(city) {
+    let templatePlaces = '';
+    city.places.forEach(place => {
+        templatePlaces += createRoom(place);
+        console.log(templatePlaces);
+    });
+    return `
+        <div class="floor">
+            <div class="floor-title">
+                <h2>${city.cityName}</h2>
+            </div>
+            <div class="rooms">
+                ${templatePlaces}
+            </div>
+        </div>
+    `
+}
+  

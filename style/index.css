@@ -295,15 +295,11 @@
   }
 }
 
-/*Contenido de la pagina principal*/
 .seccion {
   opacity: 0;
-  /* Inicialmente, establece la opacidad en 0 para ocultar la sección */
   transition: opacity 1s ease-in-out;
-  /* Aplica una transición suave en la opacidad */
 }
 
-.aparecer {
+.mostrar {
   opacity: 1;
-  /* Cuando la clase 'aparecer' se agrega al elemento, la opacidad cambia a 1, mostrando la sección */
 }

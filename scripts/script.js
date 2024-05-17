@@ -15,7 +15,7 @@ function menuMobile() {
       for (var i = 0; i < secciones.length; i++) {
         var alturaSeccion = secciones[i].offsetTop;
         if (alturaScroll > alturaSeccion - alturaVentana + 200) {
-          secciones[i].classList.add("aparecer"); 
+          secciones[i].classList.add("mostrar"); 
         }
       }
     }
@@ -40,7 +40,6 @@ function menuMobile() {
     
     // Event listener para ajustar el ancho de los elementos hr al hacer scroll o cambiar el tamaño de la ventana
     window.addEventListener("scroll", ajustarAnchoHr);
-    window.addEventListener("resize", ajustarAnchoHr);
     
     // Llama a las funciones inicialmente
     mostrarSecciones();

@@ -9,8 +9,19 @@
     /* max-width: 1200px; */
     max-width: 1366px;
     margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 5%;
 }
 
+.miHr {
+    height: 4px;
+    width: 0;
+    background-color: #b99470;
+    border: 0;
+    margin-bottom: 5%;
+    transition: width 2s;
+  }
 .reservas .title {
     text-align: center;
     margin-bottom: 50px;
@@ -45,12 +56,13 @@
 }
 
 .reservas .floor-title {
-    background-color: #ffcfa0;
+    background-color: #b99470;
     padding: 15px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px 10px 0 0;
+    color: #fff;
 }
 
 .reservas .rooms {
@@ -59,7 +71,6 @@
     justify-content: space-between;
     width: 100%;
     padding: 15px;
-    ;
     column-gap: 3.33%;
 }
 
@@ -115,7 +126,8 @@
 }
 
 .reservas .room-info a:hover {
-    background-color: #ff952a;
+    background-color: #b99470;
+    color: #fff;
 }
 
 @media (max-width: 1366px) {

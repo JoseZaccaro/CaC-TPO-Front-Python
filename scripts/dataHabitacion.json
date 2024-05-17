@@ -1,0 +1,75 @@
+
+{
+  "cities": [
+    {
+      "cityName": "Habitaciones Matrimoniales",
+      "places": [
+        {
+          "titulo": "Doble ejecutiva 1",
+          "foto": "https://rnb.scene7.com/is/image/roomandboard/homepageHero_freshFinds_1920?size=2400,2400&scl=1",
+          "imageAlt": "buenos aires",
+          "info": "1 cama doble, 1 cama individual, 1 baño",
+          "price": 100,
+          "placeId": 1,
+          "guests": 3,
+          "location": "La Plata, Buenos Aires"
+        },
+        {
+          "titulo": "Doble ejecutiva 2",
+          "foto": "https://i0.wp.com/www.homebeautiful.com.au/wp-content/uploads/sites/2/umb-media/28263/simple-bedroom.jpg?fit=1500%2C1000&ssl=1",
+          "imageAlt": "buenos aires",
+          "info": "1 cama doble, 1 cama individual, 1 baño",
+          "price": 100,
+          "placeId": 1,
+          "guests": 3,
+          "location": "La Plata, Buenos Aires"
+        },
+        {
+          "titulo": "Doble ejecutiva 3",
+          "foto": "https://www.familyhandyman.com/wp-content/uploads/2020/12/keep-it-simple-94516419_157018252412725_7667823805972634030_n.jpg?fit=696%2C696",
+          "imageAlt": "buenos aires",
+          "info": "1 cama doble, 1 cama individual, 1 baño",
+          "price": 100,
+          "placeId": 1,
+          "guests": 3,
+          "location": "La Plata, Buenos Aires"
+        }
+      ]
+    },
+    {
+      "cityName": "Habitaciones Simples",
+      "places": [
+        {
+          "titulo": "Simple 1",
+          "foto": "https://i.pinimg.com/originals/8f/a5/71/8fa571bf5e890bdbe1a292acc3052604.jpg",
+          "imageAlt": "buenos aires",
+          "info": "1 cama doble, 1 cama individual, 1 baño",
+          "price": 100,
+          "placeId": 1,
+          "guests": 3,
+          "location": "La Plata, Buenos Aires"
+        },
+        {
+          "titulo": "Simple 2",
+          "foto": "https://hoteltriana.es/wp-content/uploads/2020/03/hotel-triana-habitaciones-012.jpg",
+          "imageAlt": "buenos aires",
+          "info": "1 cama doble, 1 cama individual, 1 baño",
+          "price": 100,
+          "placeId": 1,
+          "guests": 3,
+          "location": "La Plata, Buenos Aires"
+        },
+        {
+          "titulo": "Simple 3",
+          "foto": "https://www.grupoleon.es/wp-content/uploads/2016/11/habitacion-02.jpg",
+          "imageAlt": "buenos aires",
+          "info": "1 cama doble, 1 cama individual, 1 baño",
+          "price": 100,
+          "placeId": 1,
+          "guests": 3,
+          "location": "La Plata, Buenos Aires"
+        }
+      ]
+    }
+  ]
+}
