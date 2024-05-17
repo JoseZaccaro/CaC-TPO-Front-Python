@@ -1,7 +1,7 @@
 import { createCity } from "./functions.js";
 const $container = document.getElementById('cities-container')
 
-fetch('/scripts/dataReservas.json')
+fetch('/CaC-TPO-Front-Python/scripts/dataReservas.json')
     .then(response => response.json())
     .then(data => {
         // console.log(data);
