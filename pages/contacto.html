@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../style/reservas.css">
+    <link rel="stylesheet" href="../style/contacto.css">
     <link rel="stylesheet" href="../style/layout.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
@@ -26,20 +26,47 @@
                         <i class="fa fa-bars"></i>
                     </a></li>
                 <li><a href="../index.html"><i class="fa fa-fw fa-home"></i>Inicio</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./reservas.html">Reservas</a></li>
-                <li><a href="#contacto" class="active">Contacto</a></li>
-                <li><a href="./habitaciones.html">Habitaciones</a></li>
+                <li><a href="./servicios.html"><i class="fa fa-fw fa-gear"></i>Servicios</a></li>
+                <li><a href="./reservas.html" ><i class="fa fa-fw fa-calendar"></i>Reservas</a></li>
+                <li><a href="./contacto.html"class="active"><i class="fa fa-fw fa-address-book"></i>Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="min-h-screen">
-        
+        <!-- Generate a list of floors and rooms for each floor section   -->
+        <section class="contacto" id="contacto">
+            <div class="container" >
+                <div class="container-title">
+                    <div class="titulo-seccion">
+                        <h3>Contacto</h3>
+                        <hr class="miHr" />
+                        <p>Contactenos para vivir la mejor experiencia</p>
+                    </div>
+                    
+                </div>
+                <div class="contenido">
+                    <h2>Formulario de Contacto</h2>
+                    <div class="row">
+                      <div class="col" id="formulario">
+                        <form action="procesar_formulario.php" method="POST">
+                          <label for="nombre">Nombre:</label>
+                          <input type="text" id="nombre" name="nombre" required><br>
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required><br>
+                          <label for="mensaje">Mensaje:</label><br>
+                          <textarea id="mensaje" name="mensaje" required></textarea><br>
+                          <button type="submit">Enviar</button>
+                        </form>
+                      </div>
+                      <div class="col" id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.684216302693!2d-58.46489238477081!3d-34.545658864982366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac20d9ca68b%3A0x58351e3126d16079!2sEstadio%20Monumental%20Antonio%20Vespucio%20Liberti!5e0!3m2!1sen!2sar!4v1621271873852!5m2!1sen!2sar" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+            </div>        
+        </section>
     </main>
-
-
-
     <footer>
         <div class="content">
             <div class="img">
@@ -61,16 +88,17 @@
             </div>
             <div class="footer-container-menu">
                 <div class="footer-title-menu">Menú</div>
-                <div class="footer-item-menu"><a href="#" class="footer-link-menu">Home</a></div>
-                <div class="footer-item-menu"><a href="#" class="footer-link-menu">Nosotros</a></div>
-                <div class="footer-item-menu"><a href="#" class="footer-link-menu">Contacto</a></div>
+                <div class="footer-item-menu"><a href="../index.html" class="footer-link-menu">Inicio</a></div>
+                <div class="footer-item-menu"><a href="./servicios.html" class="footer-link-menu">Servicios</a></div>
+                <div class="footer-item-menu"><a href="./reservas.html" class="footer-link-menu">Reservas</a></div>
+                <div class="footer-item-menu"><a href="./contacto.html" class="footer-link-menu">Contacto</a></div>
             </div>
         </div>
         <div class="copyright">
             <p>Pie de página - © 2024 HotelHive</p>
         </div>
     </footer>
-
+    <script type="module" src="../scripts/functions.js"></script>
 </body>
 
 </html>
