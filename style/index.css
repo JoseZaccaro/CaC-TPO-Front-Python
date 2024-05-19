@@ -54,14 +54,7 @@
   color: #aa825d;
 }
 
-.miHr {
-  height: 4px;
-  width: 0;
-  background-color: #b99470;
-  border: 0;
-  margin-bottom: 5%;
-  transition: width 2s;
-}
+
 
 .text-welcome {
   display: grid;
@@ -71,9 +64,7 @@
   height: min-content;
 }
 
-.titulo-seccion h3 {
-  font-size: 50px;
-}
+
 
 .bienvenida {
   display: grid;

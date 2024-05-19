@@ -255,3 +255,39 @@ footer .content .text {
 }
 
 /*FIN FOOTER*/
+
+.titulo-seccion h3 {
+    font-size: 50px;
+  }
+
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 50px;
+    width: auto;
+    padding: 50px;
+    display: inline-block;
+}
+
+.titulo-seccion  h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.titulo-seccion  p {
+    font-size: 18px;
+    color: #777;
+}
+
+.miHr {
+    height: 4px;
+    width: 0;
+    background-color: #b99470;
+    border: 0;
+    margin-bottom: 5%;
+    transition: width 2s;
+  }
+
+  .container-title{
+    display: flex;
+    justify-content: center;
+  }

@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
-    <link rel="stylesheet" href="../style/reservas.css">
+    <script src="https://kit.fontawesome.com/d3171673fa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style/layout.css">
+    <link rel="stylesheet" href="../style/servicios.css">    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="../scripts/script.js"></script> 
-
 </head>
 
 <body>
@@ -26,8 +25,8 @@
                         <i class="fa fa-bars"></i>
                     </a></li>
                 <li><a href="../index.html"><i class="fa fa-fw fa-home"></i>Inicio</a></li>
-                <li><a href="#servicios" class="active">Servicios</a></li>
-                <li><a href="./reservas.html">Reservas</a></li>
+                <li><a href="#" class="active">Servicios</a></li>
+                <li><a href="./reservas.html" >Reservas</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
                 <li><a href="./habitaciones.html">Habitaciones</a></li>
             </ul>
@@ -35,11 +34,93 @@
     </header>
 
     <main class="min-h-screen">
-
+        <!-- Generate a list of floors and rooms for each floor section   -->
+        <section class="reservas" id="reservas">
+            <div class="container" >
+                <div class="container-title">
+                    <div class="titulo-seccion">
+                        <h3>Servicios</h3>
+                        <hr class="miHr" />
+                        <p>Una gran variedad de servicios 
+                            para que puedas disfrutar de una gran estadia.</p>
+                    </div>
+                </div>
+            
+                <div class="service-wrapper">
+                    <div class="service">
+                        <div class="cards">
+                            <div class="card">
+                                <i class="fas fa-bath fa-3x"></i>
+                                <h2>Baño Privado</h2>
+                                <p>Baños Con Simple Y Doble Bacha.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-utensils fa-3x"></i>
+                                <h2>Desayuno Buffet</h2>
+                                <p>Nuestros desayunos constan de frutas, cereales, yogurt, jugo natural, infusiones a gusto, panadería y pastelería casera y dulces regionales.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-tv fa-3x"></i>
+                                <h2>TV por cable</h2>
+                                <p>Disponemos en todas las habitaciones de TV por cable con 75 canales.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-temperature-half fa-3x"></i>
+                                <h2>Ambiente Climatizado</h2>
+                                <p>Todo el hotel cuenta con calefacción y aires acondicionados de última generación.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-dumbbell fa-3x"></i>
+                                <h2>Gimnasio</h2>
+                                <p>Amplio espacio y diseño moderno, con los mejores equipos para su momento de ejercitación.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-wifi fa-3x"></i>
+                                <h2>Wifi</h2>
+                                <p>Disponemos de Wi-Fi gratuito en áreas públicas & habitaciones.</p>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="service-wrapper">
+                    <h2>Servicios Opcionales</h2>
+                    <hr class="miHr" />
+                    <div class="service">
+                        <div class="cards">
+                            <div class="card">
+                                <i class="fas fa-truck-medical fa-3x"></i>
+                                <h2>Urgencias Médicas</h2>
+                                <p>Atención de urgencias médicas las 24 horas.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-mug-saucer fa-3x"></i>
+                                <h2>Confitería</h2>
+                                <p>Con una vista inmejorable podrás deleitarte con exquisitos productos artesanales.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-tv fa-3x"></i>
+                                <h2>Lavandería y Tintorería</h2>
+                                <p>El hotel tiene servicio de lavandería personal con costo adicional.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-car fa-3x"></i>
+                                <h2>Cochera</h2>
+                                <p>Tenemos convenios con cocheras cercanas.</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-handshake fa-3x"></i>
+                                <h2>Sala de Reuniones</h2>
+                                <p>Contamos con espacios y salas para albergar eventos sociales o corporativos de pequeño formato de mayor envergadura.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+        </section>
     </main>
-
-
-
     <footer>
         <div class="content">
             <div class="img">
@@ -70,7 +151,9 @@
             <p>Pie de página - © 2024 HotelHive</p>
         </div>
     </footer>
-
+    <script type="module" src="../scripts/functions.js"></script>
+    <script type="module" src="../scripts/reservas.js"></script>
+    <script src="../scripts/script.js"></script>
 </body>
 
 </html>
