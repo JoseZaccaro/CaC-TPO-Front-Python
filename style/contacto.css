@@ -23,6 +23,9 @@ body {
     overflow: hidden;
     width: 80%;
   }
+  .contenido h2 {
+    padding: 10px 20px;
+  }
 
   .row {
     display: flex;
@@ -34,7 +37,7 @@ body {
   }
 
   /* Estilos para el formulario */
-  #formulario {
+  .formulario {
     background-color: #f9f9f9;
   }
 
