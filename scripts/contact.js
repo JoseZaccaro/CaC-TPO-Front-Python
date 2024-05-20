@@ -9,6 +9,20 @@ function submitForm(event) {
     console.log(errors);
     if (Object.keys(errors).length > 0) {
         // alert('Por favor, complete correctamente los campos: ' + Object.keys(errors).join(', ') + '.');
+        for (const [key, value] of Object.entries(errors)) {
+            Toastify({
+                text: value,
+                duration: 2000,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                position: "right", // `left`, `center` or `right`
+                stopOnFocus: true, // Prevents dismissing of toast on hover
+                style:{
+                    background: "#ec2828",
+                }
+            }).showToast();
+
+        }
     } else {
         // form.submit();
         alert('Formulario enviado correctamente');
