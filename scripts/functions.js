@@ -25,7 +25,7 @@ export function createPlace(place) {
                 <h3>${place.placeName}</h3>
                 <p>${place.description}</p>
                 <p>Precio: &dollar;${place.price} por noche</p>
-                <a href="/CaC-TPO-Front-Python/pages/detail.html?placeId=${place.placeId}" class="btn">Reservar</a>
+                <a href="/pages/detail.html?placeId=${place.placeId}" class="btn">Reservar</a>
             </div>
         </div>
     `
