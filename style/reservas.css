@@ -11,20 +11,7 @@
     margin: 0 auto;
 }
 
-.reservas .title {
-    text-align: center;
-    margin-bottom: 50px;
-}
 
-.reservas .title h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.reservas .title p {
-    font-size: 18px;
-    color: #777;
-}
 
 .reservas .floors {
     display: flex;
