@@ -2,7 +2,7 @@ import { createDetail } from "./functions.js";
 
 const placeId = new URLSearchParams(window.location.search).get('placeId')
 const $container = document.getElementById('container')
-fetch('/CaC-TPO-Front-Python/scripts/dataReservas.json')
+fetch('../scripts/dataReservas.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
